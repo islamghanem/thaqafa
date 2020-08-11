@@ -257,7 +257,7 @@ div{
 .line{
     position: absolute;
     top: 1705px;
-    left: 285px;
+    left: 238px;
 }
 
 .text3{
@@ -287,7 +287,7 @@ span{
     position: absolute;
     left: 870px;
     top: 1990px;
-    transform: scale(1.2);
+    transform: scale(1.4);
     transition: 0;
     
 }
@@ -324,6 +324,7 @@ span{
     }
 }
 }
+
 
 
 
