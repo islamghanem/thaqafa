@@ -32,6 +32,7 @@ body{
     color: #fff;
     font-family: 'Changa', sans-serif;
     direction: rtl;
+    right: 30px;
 }
 
 .text2{
@@ -42,6 +43,7 @@ body{
     color: #fff;
     font-family: 'Changa', sans-serif;
     direction: rtl;
+    right: 30px;
 }
 
 .a1{
@@ -91,7 +93,7 @@ div{
 .line{
     position: absolute;
     top: 541px;
-    left: 285px;
+    left: 230px;
 }
 
 .text3{
@@ -158,6 +160,7 @@ span{
         transform: translate(200px)
     }
 }
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     *{
     margin: 0;
@@ -165,23 +168,23 @@ span{
 }
 
 body{
-    width: 1024px;
-    height: 1000px;
+    width: 1160px;
+    height: 3000px;
     background-color: #004FB0;
 }
 
 .logo{
-    top: 114px;
-    left: 932px;
-    transform: scale(1.85);
+    top: 40px;
+    left: 900px;
+    transform: scale(1.2);
 }
 
 
 .image{
     position: absolute;
     top: 518px;
-    left: 348px;
-    transform: scale(2.5);
+    left: 417px;
+    transform: scale(2.1);
 
 }
 
@@ -189,21 +192,21 @@ body{
     position: absolute;
     top: 1200px;
     left: 107px;
-    font-size: 59px;
+    font-size: 45px;
     color: #fff;
     font-family: 'Changa', sans-serif;
-    right: -196px;
+    right: -141px;
     direction: rtl;
 }
 
 .text2{
     position: absolute;
-    top: 1611px;
+    top: 1450px;
     left: 107px;
-    font-size: 59px;
+    font-size: 45px;
     color: #fff;
     font-family: 'Changa', sans-serif;
-    right: -196px;
+    right: -141px;
     direction: rtl;
 }
 
@@ -218,7 +221,7 @@ body{
     border-radius: 999px;
     border: 7px solid #f3c623;
     font-family: 'Changa', sans-serif;
-    font-size: 82px;
+    font-size: 60px;
     white-space: nowrap;
     color: #fff;
     cursor: pointer;
@@ -237,13 +240,13 @@ body{
 div{
     background-color: #fff;
     width: 800px;
-    height: 12px;
+    height: 20px;
     border-radius: 20px;
 }
 .point{
-    background-color: #3399cc;
+    background-color: #004FB0;
     width: 12px;
-    height: 12px;
+    height: 20px;
     border-radius: 20px;
     position: absolute;
     animation: translate 8s ease-in-out;
@@ -253,19 +256,19 @@ div{
 
 .line{
     position: absolute;
-    top: 2000px;
+    top: 1705px;
     left: 285px;
 }
 
 .text3{
     position: absolute;
-    top: 2070px;
+    top: 1780px;
     left: 133px;
-    font-size: 43px;
+    font-size: 38px;
     color: #fff;
     font-family: 'Changa', sans-serif;
     direction: rtl;
-    right: -196px;
+    right: -141px;
 }
 
 span{
@@ -280,11 +283,14 @@ span{
     border-radius: 999px;
     border: 7px solid #f3c623;
     font-family: 'Changa', sans-serif;
+    background: transparent;
     position: absolute;
-    left: 923px;
-    top: 2300px;
+    left: 870px;
+    top: 1990px;
+    transform: scale(1.2);
+    transition: 0;
+    
 }
-
 
 .a2{
     color: #fff;
@@ -302,11 +308,22 @@ span{
 
 
 .story1:hover{
-    transform: scale(.7);
+    transform: scale(1.2);
 }
-
+@keyframes translate{
+    0%{
+        transform: translate(200px)
+    }
+    
+    50%{
+        transform: translate(600px)
+    }
+    
+    100%{
+        transform: translate(200px)
+    }
 }
-
+}
 
 
 
