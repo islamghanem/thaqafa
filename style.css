@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 1024px;
+    height: 1000px;
+    background-color: #004FB0;
+}
+
+.logo{
+    position: absolute;
+    top: 2px;
+    left: 1088px;
+    transform: scale(0.85)
+}
+
+
+.image{
+    position: absolute;
+    top: 115px;
+    left: 127px;
+
+}
+
+.text1{
+    position: absolute;
+    top: 261px;
+    left: 646px;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Changa', sans-serif;
+    direction: rtl;
+}
+
+.text2{
+    position: absolute;
+    top: 381px;
+    left: 693px;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Changa', sans-serif;
+    direction: rtl;
+}
+
+.a1{
+    color: #f3c623
+}
+
+
+.btn1{
+    flex: 1;
+    padding: 5px 15px;
+    border-radius: 999px;
+    border: 7px solid #f3c623;
+    font-family: 'Changa', sans-serif;
+    font-size: 36px;
+    white-space: nowrap;
+    color: #fff;
+    cursor: pointer;
+    background: transparent;
+    background-repeat: repeat-x;
+    position: absolute;
+    left: 32px;
+    top: 20px;
+}
+
+.btn1:hover{
+    color: #fdbf09
+}
+
+
+div{
+    background-color: #fff;
+    width: 800px;
+    height: 12px;
+    border-radius: 20px;
+}
+.point{
+    background-color: #3399cc;
+    width: 12px;
+    height: 12px;
+    border-radius: 20px;
+    position: absolute;
+    animation: translate 8s ease-in-out;
+    animation-fill-mode: backwards;
+    animation-iteration-count: infinite
+}
+
+.line{
+    position: absolute;
+    top: 541px;
+    left: 285px;
+}
+
+.text3{
+    position: absolute;
+    top: 577px;
+    left: 646px;
+    font-size: 22px;
+    color: #fff;
+    font-family: 'Changa', sans-serif;
+    direction: rtl;
+}
+
+span{
+    color: #fdbf09
+}
+
+
+.story1{
+    flex: 1;
+    width: 230px;
+    height: 230px;
+    border-radius: 999px;
+    border: 7px solid #f3c623;
+    font-family: 'Changa', sans-serif;
+    background: transparent;
+    position: absolute;
+    left: 1043px;
+    top: 615px;
+    transform: scale(.8);
+    transition: .3s linear; 
+}
+
+.a2{
+    color: #fff;
+    font-size: 33px;
+    position: absolute;
+    top: 129px;
+    left: 44px
+}
+
+.monster{
+    position: absolute;
+    top: 10px;
+    left: 59px
+}
+
+
+.story1:hover{
+    transform: scale(.7);
+}
+
+
+
+@keyframes translate{
+    0%{
+        transform: translate(200px)
+    }
+    
+    50%{
+        transform: translate(600px)
+    }
+    
+    100%{
+        transform: translate(200px)
+    }
+}
+
+
+
+
+
+
+
+
