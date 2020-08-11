@@ -1,0 +1,208 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 1024px;
+    height: 1100px;
+    background-color: #111013;
+}
+
+.logo{
+    position: absolute;
+    top: 2px;
+    left: 1088px;
+    transform: scale(0.85)
+}
+h1{
+    color: #fff;
+    font-family: 'Changa', sans-serif;
+    position: absolute;
+    left: 641px;
+    top: 146px;
+    transform: scale(2.6)
+}
+
+.div1{
+    background-color: #000;
+    width: 1091px;
+    height: 430px;
+    border-radius: 50px;
+    opacity: 60%;
+    position: absolute;
+    top: 259px;
+    left: 115px;
+    color: #fff; 
+}
+
+p{
+    width: 1000px;
+    height: 200px;
+    direction: rtl;
+    font-size: 26px;
+    position: absolute;
+    left: 43px;
+    top: 29px;
+    font-family: 'Changa', sans-serif;
+}
+
+.btn{
+    width: 180px;
+    height: 59px;
+    position: absolute;
+    top: 164px;
+    left: 312px;
+    background-color: #00C89F;
+    border-radius: 30px;
+}
+a{
+    color: #fff;
+    position: absolute;
+    top: -13px;
+    left: 28px;
+    font-size: 44px;
+    font-family: 'Changa', sans-serif;
+    
+}
+
+.monster2{
+    transform: scale(.6);
+    position: absolute;
+    top: 552px;
+    left: 77px;
+}
+h2{
+    color: #fff;
+    font-family: 'Changa', sans-serif;
+    position: absolute;
+    left: 853px;
+    top: 778px;
+    transform: scale(1.8);
+}
+
+.a2{
+    color: #f3c623;
+    position: absolute;
+    left: 992px;
+    top: 851px;
+    font-size: 35px;
+    font-family: 'Changa', sans-serif;
+    text-decoration: none
+}
+.a3{
+    color: #f3c623;
+    position: absolute;
+    left: 1014px;
+    top: 911px;
+    font-size: 35px;
+    font-family: 'Changa', sans-serif;
+    text-decoration: none
+    
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 1160px;
+    height: 3000px;
+    background-color: #111013;
+}
+
+.logo{
+    top: 40px;
+    left: 900px;
+    transform: scale(1.2);
+}
+h1{
+    color: #fff;
+    font-family: 'Changa', sans-serif;
+    position: absolute;
+    left: 687px;
+    top: 397px;
+    transform: scale(2.9);
+}
+
+.div1{
+    background-color: #000;
+    width: 1091px;
+    height: 1100px;
+    border-radius: 50px;
+    opacity: 60%;
+    position: absolute;
+    top: 530px;
+    left: 39px;
+    color: #fff;
+}
+
+p{
+    width: 1000px;
+    height: 200px;
+    direction: rtl;
+    font-size: 42px;
+    position: absolute;
+    left: 43px;
+    top: 29px;
+    font-family: 'Changa', sans-serif;
+}
+
+.btn{
+    width: 180px;
+    height: 59px;
+    position: absolute;
+    top: 426px;
+    left: 282px;
+    background-color: #00C89F;
+    border-radius: 30px;
+    transform: scale(1.6);
+}
+a{
+    color: #fff;
+    position: absolute;
+    top: -13px;
+    left: 28px;
+    font-size: 44px;
+    font-family: 'Changa', sans-serif;
+    
+}
+
+.monster2{
+    FONT-WEIGHT: 100;
+    transform: scale(1.2);
+    position: absolute;
+    top: 1828px;
+    left: 77px;
+}
+h2{
+    color: #fff;
+    font-family: 'Changa', sans-serif;
+    position: absolute;
+    left: 878px;
+    top: 1884px;
+    transform: scale(3);
+}
+
+.a2{
+    color: #f3c623;
+    position: absolute;
+    left: 838px;
+    top: 2090px;
+    font-size: 59px;
+    font-family: 'Changa', sans-serif;
+    text-decoration: none;
+}
+.a3{
+    color: #f3c623;
+    position: absolute;
+    left: 874px;
+    top: 2201px;
+    font-size: 59px;
+    font-family: 'Changa', sans-serif;
+    text-decoration: none;
+    
+}
