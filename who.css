@@ -1,0 +1,140 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 1024px;
+    height: 900px;
+    background-color: #004FB0;
+}
+
+.logo{
+    position: absolute;
+    top: 2px;
+    left: 1088px;
+    transform: scale(0.85)
+}
+
+
+div{
+    width: 1091px;
+    height: 430px;
+    border-radius: 50px;
+    opacity: 100%;
+    position: absolute;
+    top: 259px;
+    left: 115px;
+    color: #fff; 
+}
+
+p{
+    width: 1000px;
+    height: 200px;
+    direction: rtl;
+    font-size: 26px;
+    position: absolute;
+    left: 43px;
+    top: 29px;
+    font-family: 'Cairo', sans-serif;
+}
+.p2{
+    width: 1000px;
+    height: 200px;
+    direction: rtl;
+    font-size: 26px;
+    position: absolute;
+    left: 43px;
+    top: 300px;
+    font-family: 'Cairo', sans-serif;
+}
+a{
+    font-family: 'Changa', sans-serif;
+    color: #f3c623;
+}
+
+.btn{
+    width: 180px;
+    height: 59px;
+    position: absolute;
+    top: 164px;
+    left: 312px;
+    background-color: #00C89F;
+    border-radius: 30px;
+}
+
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    width: 1160px;
+    height: 1700px;
+    background-color: #004FB0;
+}
+
+.logo{
+    top: 40px;
+    left: 900px;
+    transform: scale(1.2);
+}
+h1{
+    color: #fff;
+    font-family: 'Changa', sans-serif;
+    position: absolute;
+    left: 687px;
+    top: 397px;
+    transform: scale(2.9);
+}
+
+.div1{
+    width: 1091px;
+    height: 1100px;
+    border-radius: 50px;
+    opacity: 100%;
+    position: absolute;
+    top: 530px;
+    left: 39px;
+    color: #fff;
+}
+
+p{
+    width: 1000px;
+    height: 200px;
+    direction: rtl;
+    font-size: 42px;
+    position: absolute;
+    left: 16px;
+    top: 104px;
+    font-family: 'Changa', sans-serif;
+}
+a{
+    font-family: 'Changa', sans-serif;
+    color: #f3c623;
+}
+    
+.p2{
+    width: 1000px;
+    height: 200px;
+    direction: rtl;
+    font-size: 42px;
+    position: absolute;
+    left: 16px;
+    top: 640px;
+    font-family: 'Changa', sans-serif;  
+}
+
+.btn{
+    width: 180px;
+    height: 59px;
+    position: absolute;
+    top: 426px;
+    left: 282px;
+    background-color: #00C89F;
+    border-radius: 30px;
+    transform: scale(1.6);
+}
+
