@@ -47,7 +47,7 @@ body{
 }
 
 .a1{
-    color: #f3c623
+    color: #f3c623;
 }
 
 
@@ -68,7 +68,10 @@ body{
     top: 20px;
 }
 
-.btn1:hover{
+.a3{
+    color: #fff;
+}
+.a3:hover{
     color: #fdbf09
 }
 
@@ -232,7 +235,10 @@ body{
     top: 30px;
 }
 
-.btn1:hover{
+.a3{
+    color: #fff;
+}
+.a3:hover{
     color: #fdbf09
 }
 
@@ -324,11 +330,6 @@ span{
     }
 }
 }
-
-
-
-
-
 
 
 
