@@ -105,11 +105,12 @@ p{
     width: 1000px;
     height: 200px;
     direction: rtl;
-    font-size: 42px;
+    font-size: 55px;
     position: absolute;
     left: 16px;
     top: 104px;
     font-family: 'Changa', sans-serif;
+}
 }
 a{
     font-family: 'Changa', sans-serif;
@@ -120,11 +121,11 @@ a{
     width: 1000px;
     height: 200px;
     direction: rtl;
-    font-size: 42px;
+    font-size: 55px;
     position: absolute;
     left: 16px;
-    top: 640px;
-    font-family: 'Changa', sans-serif;  
+    top: 926px;
+    font-family: 'Changa', sans-serif;
 }
 
 .btn{
@@ -137,4 +138,5 @@ a{
     border-radius: 30px;
     transform: scale(1.6);
 }
+
 
